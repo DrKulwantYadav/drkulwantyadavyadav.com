@@ -27,6 +27,9 @@ export default function RootLayout({ children }) {
       <body className="min-h-screen antialiased">
         <SiteHeader />
         {children}
+        <a className="mobile-sticky-cta" href="/contact">
+          Book Appointment
+        </a>
         <SiteFooter />
         <script
           type="application/ld+json"
